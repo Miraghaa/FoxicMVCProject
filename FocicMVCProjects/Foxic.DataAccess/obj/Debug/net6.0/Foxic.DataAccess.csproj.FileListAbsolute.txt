@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.deps.json
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.AssemblyInfo.cs
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\refint\Foxic.DataAccess.dll
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\ref\Foxic.DataAccess.dll
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\bin\Debug\net6.0\Foxic.Core.dll
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\bin\Debug\net6.0\Foxic.Core.pdb
+C:\Users\USER\source\repos\FocicMVCProjects\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.CopyComplete
