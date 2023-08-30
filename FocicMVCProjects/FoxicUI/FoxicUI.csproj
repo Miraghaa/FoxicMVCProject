@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
@@ -15,12 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Foxic.DataAccess\Foxic.DataAccess.csproj" />
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
+    <ProjectReference Include="..\FoxicBuisness\Foxic.Buisness.csproj" />
   </ItemGroup>
 
 </Project>

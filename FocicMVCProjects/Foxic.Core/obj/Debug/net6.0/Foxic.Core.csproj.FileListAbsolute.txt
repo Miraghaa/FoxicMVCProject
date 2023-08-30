@@ -9,3 +9,15 @@ C:\Users\USER\source\repos\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Co
 C:\Users\USER\source\repos\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\refint\Foxic.Core.dll
 C:\Users\USER\source\repos\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Core.pdb
 C:\Users\USER\source\repos\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\ref\Foxic.Core.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\bin\Debug\net6.0\Foxic.Core.deps.json
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\bin\Debug\net6.0\Foxic.Core.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\bin\Debug\net6.0\Foxic.Core.pdb
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Core.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Core.AssemblyInfo.cs
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Core.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Core.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\refint\Foxic.Core.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Core.pdb
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\ref\Foxic.Core.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\Foxic.Core\obj\Debug\net6.0\Foxic.Core.csproj.AssemblyReference.cache

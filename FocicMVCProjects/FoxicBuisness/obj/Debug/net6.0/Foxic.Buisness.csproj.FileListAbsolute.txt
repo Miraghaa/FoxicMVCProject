@@ -1,0 +1,17 @@
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\Foxic.Buisness.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\Foxic.Buisness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\Foxic.Buisness.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\Foxic.Buisness.AssemblyInfo.cs
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\Foxic.Buisness.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\bin\Debug\net6.0\Foxic.Buisness.deps.json
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\bin\Debug\net6.0\Foxic.Buisness.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\bin\Debug\net6.0\Foxic.Buisness.pdb
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\bin\Debug\net6.0\Foxic.Core.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\bin\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\bin\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\bin\Debug\net6.0\Foxic.Core.pdb
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\Foxic.Buisness.csproj.CopyComplete
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\Foxic.Buisness.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\refint\Foxic.Buisness.dll
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\Foxic.Buisness.pdb
+C:\Users\USER\Desktop\mvc proyekt\FocicMVCProjects\FoxicBuisness\obj\Debug\net6.0\ref\Foxic.Buisness.dll
