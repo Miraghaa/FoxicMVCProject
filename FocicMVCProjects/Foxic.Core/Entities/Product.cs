@@ -22,5 +22,9 @@ public class Product:BaseEntity
 	public ICollection<ProductColor> Colors { get; set; }
 	public ICollection<ProductSize> Sizes { get; set; }
 	public ICollection<OrderItem> Orders { get; set; }
-
+	public List<Image> Images { get; set; }
+	public Product()
+	{
+		Images = new ();
+	}
 }
