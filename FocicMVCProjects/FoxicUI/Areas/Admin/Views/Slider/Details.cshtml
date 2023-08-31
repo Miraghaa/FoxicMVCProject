@@ -1,5 +1,4 @@
-﻿@using Foxic.Core.Entities.AreasEntitycontroller;
-@model Slider
+﻿@model Slider
 @{
     ViewData["Title"] = "Details";
 }
@@ -19,11 +18,11 @@
         <div class="row">
             <div class="col-lg-6">
 
-                <div class="card">
-                    <div class="card-body">
-                        <img src="~/@Model.SliderImage" style="width:100px" />
-                        <h5 class="card-title">@Model.SliderName</h5>
-                        <p>@Model.SliderAbout</p>
+                <div class="card" style="width:60%">
+                    <div class="card-body" style="padding:25px">
+                        <img src="~/@Model.SliderImage" style="width:200px" />
+                        <h5 style="margin-top:20px" class="card-title">SliderName : @Model.SliderName</h5>
+                        <p class="card-title">Description : @Model.SliderAbout</p>
                     </div>
                 </div>
 

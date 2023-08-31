@@ -13,11 +13,12 @@
 					@foreach(Slider slider in Model)
 					{
 						<div class="bnslider-slide">
-							<div class="bnslider-image-mobile lazyload" data-bgset="@slider.SliderImage"></div>
-							<div class="bnslider-image lazyload" data-bgset="@slider.SliderImage"></div>
+							<div class="bnslider-image-mobile lazyload" data-bgset=""></div>
+							<div class="bnslider-image lazyload" data-bgset=""></div>
 							<div class="bnslider-text-wrap bnslider-overlay ">
 								<div class="bnslider-text-content txt-middle txt-right txt-middle-m txt-center-m">
 									<div class="bnslider-text-content-flex ">
+											<img src="@slider.SliderImage" style="width:400px"class="m-auto" />
 										<div class="bnslider-vert w-s-60 w-ms-100" style="padding: 0px">
 											<div class="bnslider-text order-1 mt-sm bnslider-text--md text-center data-ini" data-animation="fadeInUp" data-animation-delay="800" data-fontcolor="#282828" data-fontweight="700" data-fontline="1.5">@slider.SliderName</div>
 											<div class="bnslider-text order-2 mt-sm bnslider-text--xs text-center data-ini" data-animation="fadeInUp" data-animation-delay="1000" data-fontcolor="#7c7c7c" data-fontweight="400" data-fontline="1.5">@slider.SliderAbout</div>

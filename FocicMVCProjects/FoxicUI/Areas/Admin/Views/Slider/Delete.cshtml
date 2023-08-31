@@ -1,0 +1,41 @@
+﻿@model Slider
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Delete Slider</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index">Slider</a></li>
+                <li class="breadcrumb-item">Delete</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-6">
+
+                <div class="card text-center" style="width:60%">
+                    <div class="card-body" style="padding:25px">
+                        <img src="~/@Model.SliderImage" style="width:250px" />
+                        <h5 style="margin-top:20px" class="card-title">SliderName : @Model.SliderName</h5>
+                        <p class="card-title">Description : @Model.SliderAbout</p>
+                        <form method="post">
+                            <button type="submit" class="btn btn-danger">Delete </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+

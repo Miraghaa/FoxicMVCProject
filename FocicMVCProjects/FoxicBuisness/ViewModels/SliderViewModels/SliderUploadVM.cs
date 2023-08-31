@@ -6,15 +6,17 @@ namespace Foxic.Buisness.ViewModels.SliderViewModels;
 public class SliderUploadVM
 {
 	public int Id { get; set; }
-	[Required, MaxLength(30), MinLength(5)]
-	public string Title { get; set; } = null!;
 
-	[Required, MaxLength(80)]
-	public string Description { get; set; } = null!;
+    [Required, MaxLength(30), MinLength(5)]
+    public string SliderName { get; set; } = null!;
 
-	public int Discount { get; set; }
+    [Required, MaxLength(80)]
+    public string SliderAbout { get; set; } = null!;
+
 
 	public IFormFile? Image { get; set; }
 
-	public string? ImageUrl { get; set; }
+    public string? SliderImage { get; set; } 
 }
+
+
