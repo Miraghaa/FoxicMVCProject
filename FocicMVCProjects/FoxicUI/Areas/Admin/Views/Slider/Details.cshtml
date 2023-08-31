@@ -1,0 +1,34 @@
+﻿@using Foxic.Core.Entities.AreasEntitycontroller;
+@model Slider
+@{
+    ViewData["Title"] = "Details";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Blank Page</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index">Slider</a></li>
+                <li class="breadcrumb-item">Detail</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-6">
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="~/@Model.SliderImage" style="width:100px" />
+                        <h5 class="card-title">@Model.SliderName</h5>
+                        <p>@Model.SliderAbout</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+

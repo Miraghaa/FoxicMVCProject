@@ -1,6 +1,7 @@
 ﻿using Foxic.Core.Entities.AreasEntitycontroller;
 using Foxic.DataAccess.contexts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FoxicUI.Controllers;
 
@@ -12,9 +13,9 @@ public class HomeController : Controller
     {
         _context = context;
     }
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        List<Slider> sliders = _context.Sliders.ToList();
+        List<Slider> sliders = await _context.Sliders.ToListAsync();
         return View(sliders);
     }
 }

@@ -22208,6 +22208,118 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\skins\viping\slider\slide-viping.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\144d09ee-5485-4b69-b3ac-0d59c9a9a6feScreenshot 2023-07-22 150702.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/144d09ee-5485-4b69-b3ac-0d59c9a9a6feScreenshot 2023-07-22 150702.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\144d09ee-5485-4b69-b3ac-0d59c9a9a6feScreenshot 2023-07-22 150702.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\2fbf3830-e3dc-4bf6-9c45-134362d2fa35Screenshot 2023-07-22 150702.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/2fbf3830-e3dc-4bf6-9c45-134362d2fa35Screenshot 2023-07-22 150702.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\2fbf3830-e3dc-4bf6-9c45-134362d2fa35Screenshot 2023-07-22 150702.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\3326c0c2-2a10-487f-8c4b-70489da47c34Screenshot 2023-07-22 130856.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/3326c0c2-2a10-487f-8c4b-70489da47c34Screenshot 2023-07-22 130856.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\3326c0c2-2a10-487f-8c4b-70489da47c34Screenshot 2023-07-22 130856.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\55f49e6c-e979-4d62-8010-8bf577d435d9Screenshot 2023-07-22 150702.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/55f49e6c-e979-4d62-8010-8bf577d435d9Screenshot 2023-07-22 150702.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\55f49e6c-e979-4d62-8010-8bf577d435d9Screenshot 2023-07-22 150702.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\a81e529c-ab71-43dd-9346-ce9a6d043112Screenshot 2023-07-22 130856.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/a81e529c-ab71-43dd-9346-ce9a6d043112Screenshot 2023-07-22 130856.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\a81e529c-ab71-43dd-9346-ce9a6d043112Screenshot 2023-07-22 130856.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\e0dba7f1-29d6-4387-86d4-4e225c16d20cScreenshot 2023-07-22 150702.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/e0dba7f1-29d6-4387-86d4-4e225c16d20cScreenshot 2023-07-22 150702.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\e0dba7f1-29d6-4387-86d4-4e225c16d20cScreenshot 2023-07-22 150702.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\fc9c4b91-76d4-42ad-bc63-f50b73566e9fScreenshot 2023-07-22 150702.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/fc9c4b91-76d4-42ad-bc63-f50b73566e9fScreenshot 2023-07-22 150702.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\fc9c4b91-76d4-42ad-bc63-f50b73566e9fScreenshot 2023-07-22 150702.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\simple-slide-01-m.png))">
       <SourceType>Package</SourceType>
       <SourceId>FoxicUI</SourceId>

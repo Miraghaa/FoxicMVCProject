@@ -1,9 +1,13 @@
+using Foxic.Buisness.Mappers;
+using Foxic.Buisness.Services.Implementations;
+using Foxic.Buisness.Services.Interfaces;
 using Foxic.Core.Entities;
 using Foxic.DataAccess.contexts;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddAutoMapper(typeof(SliderProfile).Assembly);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -32,6 +36,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 {
 	options.LoginPath = @"/Auth/Login";
 });
+builder.Services.AddScoped<IFileService, FileService>();
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
@@ -41,9 +46,9 @@ using (var scope = app.Services.CreateScope())
 	await instance.CreateRole();
 	await instance.CreateAdmin();
 }
+app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseStaticFiles();
 app.MapControllerRoute(
      name: "areas",
 	 pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
