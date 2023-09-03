@@ -69,7 +69,7 @@ public class SliderController : Controller
             ModelState.AddModelError("SliderImage", ex.Message);
             return View(slider);
         }
-        catch (FileTypeException ex)
+        catch (FileTypeException ex)    
         {
             ModelState.AddModelError("SliderImage", ex.Message);
             return View(slider);
