@@ -1,0 +1,72 @@
+﻿@using Foxic.Buisness.ViewModels.AreasViewModels.ProductDetailVMs;
+@model ProductDetailUploadVM
+
+<main id="main" class="main">
+
+    <div class="Update">
+        <h1></h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index">ProductDetail</a></li>
+                <li class="breadcrumb-item">Update Product Detail</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Update</h5>
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="ShortDescription" class="control-label"></label>
+                            <input asp-for="ShortDescription" class="form-control" />
+                            <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="LongDescription" class="control-label"></label>
+                            <input asp-for="LongDescription" class="form-control" />
+                            <span asp-validation-for="LongDescription" class="text-danger"></span>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="Cotton" /> @Html.DisplayNameFor(model => model.Cotton)
+                            </label>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="Polyester" /> @Html.DisplayNameFor(model => model.Polyester)
+                            </label>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="Clean" /> @Html.DisplayNameFor(model => model.Clean)
+                            </label>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="Non_Chlorine" /> @Html.DisplayNameFor(model => model.Non_Chlorine)
+                            </label>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="Tax" /> @Html.DisplayNameFor(model => model.Tax)
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+@section scripts{
+    <partial name="_ValidationPartial"></partial>
+}
+

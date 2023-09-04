@@ -1,59 +1,88 @@
-﻿@model IEnumerable<Foxic.Buisness.ViewModels.AreasViewModels.ProductVMs.ProductListVM>
+﻿@using Foxic.Buisness.ViewModels.AreasViewModels.ProductVMs;
+@model IEnumerable<ProductListVM>
 
-@{
-    ViewData["Title"] = "Index";
-}
 
-<h1>Index</h1>
+<main id="main" class="main">
+    <section class="section">
+        <div class="row">
+            <div class="card" style="width:70%">
+                <div class="card-body">
+                    <h1>Create</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Discount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Stock)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Images)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Discount)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Stock)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Images)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                    <p>
+                        <a asp-action="Create" class="btn btn-dark">Create New </a>
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Discount)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Brand)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Stock)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Price)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.MainImage)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.MainImage)
+                                </th>
+                                <th>
+                                    Setting
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Discount)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayNameFor(model => model.Brand)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Stock)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Price)
+                                    </td>
+                                    <td>
+                                        <img src="~/@item.MainImage" style="width:100px" />
+                                    </td>
+                                    <td>
+                                        <img src="~/@item.MainImage" style="width:100px" />
+                                    </td>
+                                    <td>
+                                        <a asp-action="Details" asp-route-id=@item. class="btn btn-primary">
+                                            <i class="bx bx-comment-detail"></i>
+                                        </a>
+                                        <a asp-action="Update" asp-route-id=@item.Id class="btn btn-warning">
+                                            <i class="bx bxs-edit"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id=@item.Id class="btn btn-danger">
+                                            <i class="bx bx-trash"></i>
+                                        </a>
+                                    </td> 
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

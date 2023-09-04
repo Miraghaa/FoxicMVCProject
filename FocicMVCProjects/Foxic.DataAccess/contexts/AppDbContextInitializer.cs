@@ -51,4 +51,5 @@ public class AppDbContextInitializer
 		await _userManager.CreateAsync(superadmin, _configuration["SuperAdmin:Password"]);
 		await _userManager.AddToRoleAsync(superadmin, Roles.SuperAdmin.ToString());
 	}
+
 }

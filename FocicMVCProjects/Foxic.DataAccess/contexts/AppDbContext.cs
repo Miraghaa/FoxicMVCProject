@@ -22,4 +22,6 @@ public class AppDbContext: IdentityDbContext<AppUser>
 	public DbSet<OrderItem> ProductOrders { get; set; }
 	public DbSet<ProductSize> ProductSizes { get; set; }
 	public DbSet<Size> Sizes { get; set; }
+
+   
 }

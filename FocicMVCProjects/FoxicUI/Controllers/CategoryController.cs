@@ -1,17 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace FoxicUI.Controllers
-{
-	public class CategoryController : Controller
-	{
-		public IActionResult Index()
-		{
-			return View();
-		}
-		public IActionResult Detail()
-		{
+namespace FoxicUI.Controllers;
 
-			return View();
-		}
+public class CategoryController : Controller
+{
+	public IActionResult Index()
+	{
+		return View();
+	}
+	public IActionResult Detail()
+	{
+
+		return View();
 	}
 }

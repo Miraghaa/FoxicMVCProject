@@ -6,6 +6,7 @@ namespace Foxic.Buisness.ViewModels.AreasViewModels.ProductVMs;
 
 public class ProductListVM
 {
+    public  int Id {get; set;}
     public string Name { get; set; }
     public int Discount { get; set; }
     public int Stock { get; set; }

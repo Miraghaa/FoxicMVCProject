@@ -38,6 +38,7 @@ public class ProductController : Controller
     {
         ViewBag.Colors = _context.Colors.ToList();
         ViewBag.Sizes = _context.Sizes.ToList();
+        ViewBag.Brands = _context.Brands.ToList();
         return View();
     }
     [HttpPost]
@@ -47,12 +48,19 @@ public class ProductController : Controller
 
         ViewBag.Colors = _context.Colors.ToList();
         ViewBag.Sizes = _context.Sizes.ToList();
+        ViewBag.Brands = _context.Brands.ToList();
+
         string filename = string.Empty;
         Product newProduct = new ()
         {
             Name = productcreate.Name,
             Price = productcreate.Price,
+            CategoryId = productcreate.CategoryId,
+            CollectionId = productcreate.CollectionId,
+            DetailId = productcreate.DetailId,
+            BrandId = productcreate.BrandId,
         };
+        
         filename = await _fileservice.UploadFile(productcreate.MainImage, _webEnv.WebRootPath, 300, "assets", "images", "slider");
         Image MainImage = new()
         {
@@ -83,35 +91,15 @@ public class ProductController : Controller
             newProduct.Images.Add(NotMainImage);
         }
 
-        //foreach (int id in productcreate.ColorIds)
-        //{
-        //    ProductColor productColor = new()
-        //    {
-        //        ColorId= id,
-        //    };
-
-        //    newProduct.Colors.Add(productColor);
-        //}
-
-        //foreach (int id in productcreate.SizeIds)
-        //{
-        //    ProductSize productSize = new()
-        //    {
-        //        SizeId = id,
-        //    };
-
-        //    newProduct.Sizes.Add(productSize);
-        //}
-
-        if (!productcreate.MainImage.CheckFileSize(1000))
+        foreach (int id in productcreate.SizeIds)
         {
-            return View(nameof(Create));
-        };
+            ProductSize producttSize = new()
+            {
+                SizeId = id,
+            };
 
-        if (!productcreate.MainImage.CheckFileType("image/"))
-        {
-            return View(nameof(Create));
-        };
+            newProduct.Sizes.Add(producttSize);
+        }
 
         _context.Products.Add(newProduct);
         _context.SaveChanges();

@@ -113,7 +113,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders");
+                    b.ToTable("Sliders", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Brand", b =>
@@ -134,7 +134,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brands");
+                    b.ToTable("Brands", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Category", b =>
@@ -151,7 +151,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Collection", b =>
@@ -172,7 +172,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Collections");
+                    b.ToTable("Collections", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Color", b =>
@@ -193,7 +193,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Colors");
+                    b.ToTable("Colors", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Image", b =>
@@ -218,7 +218,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Image");
+                    b.ToTable("Image", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Order", b =>
@@ -241,7 +241,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.OrderItem", b =>
@@ -278,7 +278,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductOrders");
+                    b.ToTable("ProductOrders", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Product", b =>
@@ -336,7 +336,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("DetailId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.ProductColor", b =>
@@ -359,7 +359,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductColors");
+                    b.ToTable("ProductColors", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.ProductDetail", b =>
@@ -395,7 +395,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("productDetails");
+                    b.ToTable("productDetails", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.ProductSize", b =>
@@ -418,7 +418,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("SizeId");
 
-                    b.ToTable("ProductSizes");
+                    b.ToTable("ProductSizes", (string)null);
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Size", b =>
@@ -435,7 +435,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sizes");
+                    b.ToTable("Sizes", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
