@@ -23,5 +23,25 @@ public class AppDbContext: IdentityDbContext<AppUser>
 	public DbSet<ProductSize> ProductSizes { get; set; }
 	public DbSet<Size> Sizes { get; set; }
 
-   
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        // ProductCode özelliğini benzersiz hale getirin
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.Entity<Brand>()
+            .HasIndex(p => p.BrandName)
+            .IsUnique();
+        modelBuilder.Entity<Category>()
+            .HasIndex(p => p.CategoryName)
+            .IsUnique();
+        modelBuilder.Entity<Collection>()
+            .HasIndex(p => p.CollectionName)
+            .IsUnique();
+        modelBuilder.Entity<Size>()
+            .HasIndex(p => p.Name)
+            .IsUnique();
+        modelBuilder.Entity<Color>()
+            .HasIndex(p => p.Name)
+            .IsUnique();
+        
+    }
 }

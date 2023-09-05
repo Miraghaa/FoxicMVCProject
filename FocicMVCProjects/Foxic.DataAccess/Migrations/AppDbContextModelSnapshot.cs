@@ -113,7 +113,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders", (string)null);
+                    b.ToTable("Sliders");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Brand", b =>
@@ -126,7 +126,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.Property<string>("BrandName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -134,7 +134,10 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brands", (string)null);
+                    b.HasIndex("BrandName")
+                        .IsUnique();
+
+                    b.ToTable("Brands");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Category", b =>
@@ -147,11 +150,14 @@ namespace Foxic.DataAccess.Migrations
 
                     b.Property<string>("CategoryName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.HasIndex("CategoryName")
+                        .IsUnique();
+
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Collection", b =>
@@ -164,7 +170,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.Property<string>("CollectionName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -172,7 +178,10 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Collections", (string)null);
+                    b.HasIndex("CollectionName")
+                        .IsUnique();
+
+                    b.ToTable("Collections");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Color", b =>
@@ -189,11 +198,14 @@ namespace Foxic.DataAccess.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Colors", (string)null);
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Colors");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Image", b =>
@@ -218,7 +230,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Image", (string)null);
+                    b.ToTable("Image");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Order", b =>
@@ -241,7 +253,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.OrderItem", b =>
@@ -278,7 +290,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductOrders", (string)null);
+                    b.ToTable("ProductOrders");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Product", b =>
@@ -336,7 +348,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("DetailId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.ProductColor", b =>
@@ -359,7 +371,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductColors", (string)null);
+                    b.ToTable("ProductColors");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.ProductDetail", b =>
@@ -395,7 +407,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("productDetails", (string)null);
+                    b.ToTable("productDetails");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.ProductSize", b =>
@@ -418,7 +430,7 @@ namespace Foxic.DataAccess.Migrations
 
                     b.HasIndex("SizeId");
 
-                    b.ToTable("ProductSizes", (string)null);
+                    b.ToTable("ProductSizes");
                 });
 
             modelBuilder.Entity("Foxic.Core.Entities.Size", b =>
@@ -431,11 +443,14 @@ namespace Foxic.DataAccess.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sizes", (string)null);
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Sizes");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

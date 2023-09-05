@@ -90,7 +90,15 @@ public class ProductController : Controller
 
             newProduct.Images.Add(NotMainImage);
         }
+            foreach (int id in productcreate.ColorIds)
+            {
+                ProductColor productColor = new()
+                {
+                    ColorId = id,
+                };
 
+            newProduct.Colors.Add(productColor);
+            }
         foreach (int id in productcreate.SizeIds)
         {
             ProductSize producttSize = new()
