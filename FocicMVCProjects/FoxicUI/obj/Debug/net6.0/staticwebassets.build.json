@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u5n+BlCWOQynEE9afWoX17LopOO1LwBpZHNcdyewHj4=",
+  "Hash": "KsSElPFSl/sKRjA3chFsm2Ze3yThZPSOd+QysjW4OUQ=",
   "Source": "FoxicUI",
   "BasePath": "_content/FoxicUI",
   "Mode": "Default",
@@ -25855,6 +25855,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\defee98b-f302-4612-8a6a-a198b7307e86Screenshot 2023-07-22 150702.png"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\e04bd350-e84b-47ac-8384-820402de702ecategory-2.jpg",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/e04bd350-e84b-47ac-8384-820402de702ecategory-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\e04bd350-e84b-47ac-8384-820402de702ecategory-2.jpg"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\e0dba7f1-29d6-4387-86d4-4e225c16d20cScreenshot 2023-07-22 150702.png",
