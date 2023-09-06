@@ -19,15 +19,15 @@ public class Product:BaseEntity
 	public ProductDetail Detail { get; set; }
 	public int BrandId { get; set; }
 	public Brand Brand { get; set; }
-	public ICollection<ProductColor> Colors { get; set; }
-	public ICollection<ProductSize> Sizes { get; set; }
-	public ICollection<OrderItem> Orders { get; set; }
+	public List<ProductColor> Colors { get; set; }
+	public List<ProductSize> Sizes { get; set; }
+	public List<OrderItem> Orders { get; set; }
 	public List<Image> Images { get; set; }
 	public Product()
 	{
 		Images = new ();
-        Colors = new List<ProductColor>();
-        Sizes = new List<ProductSize>();
-        Orders= new List<OrderItem>();
+        Colors = new ();
+        Sizes = new ();
+        Orders= new ();
     }
 }

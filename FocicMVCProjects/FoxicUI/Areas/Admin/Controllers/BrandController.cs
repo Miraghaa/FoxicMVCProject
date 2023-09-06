@@ -7,11 +7,13 @@ using Foxic.Buisness.ViewModels.SliderViewModels;
 using Foxic.Core.Entities;
 using Foxic.Core.Entities.AreasEntitycontroller;
 using Foxic.DataAccess.contexts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FoxicUI.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin")]
 public class BrandController : Controller
 {
     private readonly AppDbContext _context;

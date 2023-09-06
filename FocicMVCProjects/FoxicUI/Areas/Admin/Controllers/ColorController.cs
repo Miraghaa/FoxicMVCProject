@@ -4,12 +4,14 @@ using Foxic.Buisness.ViewModels.AreasViewModels.BrandVMs;
 using Foxic.Buisness.ViewModels.AreasViewModels.ColorVMs;
 using Foxic.Core.Entities;
 using Foxic.DataAccess.contexts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Drawing.Drawing2D;
 
 namespace FoxicUI.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin")]
 public class ColorController : Controller
 {
     private readonly AppDbContext _context;

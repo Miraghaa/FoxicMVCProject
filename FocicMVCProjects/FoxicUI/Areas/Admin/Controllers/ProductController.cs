@@ -4,12 +4,14 @@ using Foxic.Buisness.Utilities;
 using Foxic.Buisness.ViewModels.AreasViewModels.ProductVMs;
 using Foxic.Core.Entities;
 using Foxic.DataAccess.contexts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Drawing.Drawing2D;
 
 namespace FoxicUI.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin")]
 public class ProductController : Controller
 {
     private readonly AppDbContext _context;
@@ -39,6 +41,9 @@ public class ProductController : Controller
         ViewBag.Colors = _context.Colors.ToList();
         ViewBag.Sizes = _context.Sizes.ToList();
         ViewBag.Brands = _context.Brands.ToList();
+        ViewBag.Categories = _context.Categories.ToList();
+        ViewBag.Collections = _context.Collections.ToList();
+        ViewBag.ProductDetails = _context.productDetails.ToList();
         return View();
     }
     [HttpPost]
@@ -94,6 +99,7 @@ public class ProductController : Controller
             {
                 ProductColor productColor = new()
                 {
+                    ProductId = id,
                     ColorId = id,
                 };
 
@@ -103,11 +109,21 @@ public class ProductController : Controller
         {
             ProductSize producttSize = new()
             {
+                ProductId = id,
                 SizeId = id,
             };
 
             newProduct.Sizes.Add(producttSize);
         }
+        if (!productcreate.MainImage.CheckFileSize(1000))
+        {
+            return View(nameof(Create));
+        };
+
+        if (!productcreate.MainImage.CheckFileType("image/"))
+        {
+            return View(nameof(Create));
+        };
 
         _context.Products.Add(newProduct);
         _context.SaveChanges();
@@ -115,88 +131,3 @@ public class ProductController : Controller
     }
 }
 
-
-
-
-
-
-//[HttpPost]
-//[ValidateAntiForgeryToken]
-//public async Task<IActionResult> Create(PlantCreateVM plant)
-//{
-
-//    ViewBag.Colors = _context.Colors.ToList();
-//    ViewBag.Sizes = _context.Sizes.ToList();
-
-//    Plant newPlant = new Plant()
-//    {
-//        Title = plant.Title,
-//        Price = plant.Price,
-//    };
-
-//    string Url = await plant.MainImage.CreateFilePath(_env.WebRootPath, "assets", "images", "products");
-
-//    Image MainImage = new()
-//    {
-//        IsMain = true,
-//        Url = Url
-//    };
-
-//    newPlant.Images.Add(MainImage);
-
-//    foreach (IFormFile image in plant.Images)
-//    {
-//        if (!image.CheckFileSize(1000))
-//        {
-//            return View(nameof(Create));
-//        };
-
-//        if (!image.CheckFileType("image/"))
-//        {
-//            return View(nameof(Create));
-//        };
-
-//        Image NotMainImage = new()
-//        {
-//            IsMain = false,
-//            Url = Url
-//        };
-
-//        newPlant.Images.Add(NotMainImage);
-//    }
-
-//    foreach (int id in plant.ColorIds)
-//    {
-//        PlantColor plantColor = new()
-//        {
-//            ColorId = id,
-//        };
-
-//        newPlant.Colors.Add(plantColor);
-//    }
-
-//    foreach (int id in plant.SizeIds)
-//    {
-//        PlantSize plantSize = new()
-//        {
-//            SizeId = id,
-//        };
-
-//        newPlant.Sizes.Add(plantSize);
-//    }
-
-//    if (!plant.MainImage.CheckFileSize(1000))
-//    {
-//        return View(nameof(Create));
-//    };
-
-//    if (!plant.MainImage.CheckFileType("image/"))
-//    {
-//        return View(nameof(Create));
-//    };
-
-//    _context.Plants.Add(newPlant);
-//    _context.SaveChanges();
-
-//    return RedirectToAction(nameof(Index));
-//}

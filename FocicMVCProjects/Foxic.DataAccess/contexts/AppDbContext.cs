@@ -16,6 +16,7 @@ public class AppDbContext: IdentityDbContext<AppUser>
 	public DbSet<Category> Categories { get; set; }
 	public DbSet<Collection> Collections { get; set; }
 	public DbSet<Order> Orders { get; set; }
+	public DbSet<Image> Images { get; set; }
 	public DbSet<Product> Products { get; set; }
 	public DbSet<ProductColor> ProductColors { get; set; }
 	public DbSet<ProductDetail> productDetails { get; set; }
@@ -25,7 +26,6 @@ public class AppDbContext: IdentityDbContext<AppUser>
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // ProductCode özelliğini benzersiz hale getirin
         base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Brand>()
             .HasIndex(p => p.BrandName)

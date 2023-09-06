@@ -1,4 +1,6 @@
-﻿namespace Foxic.Core.Entities;
+﻿using System.Numerics;
+
+namespace Foxic.Core.Entities;
 
 public class Color:BaseEntity
 {
@@ -6,5 +8,9 @@ public class Color:BaseEntity
 
 	public string Image {get ; set; }
 
-	public ICollection<ProductColor> Products { get; set;}
+	public List<ProductColor> Products { get; set;}
+    public Color()
+    {
+        Products = new();
+    }
 }

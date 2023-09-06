@@ -4,6 +4,9 @@
     List<Color> colors = ViewBag.Colors;
     List<Size> sizes = ViewBag.Sizes;
     List<Brand> brands = ViewBag.Brands;
+    List<Category> categories = ViewBag.Categories;
+    List<Collection> collections = ViewBag.Collections;
+    List<ProductDetail> productDetails = ViewBag.ProductDetails;
 
 }
 
@@ -48,6 +51,16 @@
                                     <input asp-for="Price" class="form-control" />
                                     <span asp-validation-for="Price" class="text-danger"></span>
                                 </div>
+                                 <div class="form-group">
+                                    <label asp-for="Stock" class="control-label"></label>
+                                    <input asp-for="Stock" class="form-control" />
+                                    <span asp-validation-for="Stock" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Discount" class="control-label"></label>
+                                    <input asp-for="Discount" class="form-control" />
+                                    <span asp-validation-for="Discount" class="text-danger"></span>
+                                </div>
                                 <div class="form-group">
                                     <label asp-for="BrandId" class="control-label">BrandName</label>
                                   <select asp-for="BrandId">
@@ -65,16 +78,26 @@
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="CategoryId" class="control-label"></label>
-                                    <input asp-for="CategoryId" class="form-control" />
+                                    <select asp-for="CategoryId">
+                                        @foreach (Category category in categories)
+                                        {
+                                            <option value="@category.Id">@category.CategoryName</option>
+                                        }
+                                    </select>
                                     <span asp-validation-for="CategoryId" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="CollectionId" class="control-label"></label>
-                                    <input asp-for="CollectionId" class="form-control" />
+                                    <select asp-for="CollectionId">
+                                        @foreach (Collection collection in collections)
+                                        {
+                                            <option value="@collection.Id">@collection.CollectionName</option>
+                                        }
+                                    </select>
                                     <span asp-validation-for="CollectionId" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="ColorIds" class="control-label"></label>
+                                    <label asp-for="ColorIds" class="control-label">Color</label>
                                     <select asp-for="ColorIds">
                                         @foreach (Color color in colors)
                                         {
@@ -84,7 +107,7 @@
                                     <span asp-validation-for="SizeIds" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="SizeIds" class="control-label"></label>
+                                    <label asp-for="SizeIds" class="control-label">Size</label>
                                     <select asp-for="SizeIds">
                                         @foreach (Size size in sizes)
                                         {

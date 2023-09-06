@@ -547,7 +547,7 @@
 					</div>
 					<div class="minicart-drop-actions">
 						<a href="cart.html" class="btn btn--md btn--grey"><i class="icon-basket"></i><span>Cart Page</span></a>
-						<a href="checkout.html" class="btn btn--md"><i class="icon-checkout"></i><span>Check out</span></a>
+						<a asp-controller="Order" asp-action="Index" class="btn btn--md"><i class="icon-checkout"></i><span>Check out</span></a>
 					</div>
 					<ul class="payment-link mb-2">
 						<li><i class="icon-amazon-logo"></i></li>
@@ -774,7 +774,7 @@
 					</div>
 				</div>
 				<div class="col-auto popup-addedtocart_actions">
-					<span>You can continue</span> <a href="#" class="btn btn--grey btn--sm js-open-drop" data-panel="#dropdnMinicart"><i class="icon-basket"></i><span>Check Cart</span></a> <span>or</span> <a href="checkout.html" class="btn btn--invert btn--sm"><i class="icon-envelope-1"></i><span>Check out</span></a>
+						<span>You can continue</span> <a asp-controller="Order" asp-action="Index" class="btn btn--grey btn--sm js-open-drop" data-panel="#dropdnMinicart"><i class="icon-basket"></i><span>Check Cart</span></a> <span>or</span> <a asp-controller="Order" asp-action="Index" class="btn btn--invert btn--sm"><i class="icon-envelope-1"></i><span>Check out</span></a>
 				</div>
 			</div>
 		</div>

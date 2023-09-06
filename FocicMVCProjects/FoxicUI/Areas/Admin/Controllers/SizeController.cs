@@ -3,10 +3,12 @@ using Foxic.Buisness.ViewModels.AreasViewModels.CategoryVMs;
 using Foxic.Buisness.ViewModels.AreasViewModels.SizeVMs;
 using Foxic.Core.Entities;
 using Foxic.DataAccess.contexts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FoxicUI.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin")]
 public class SizeController : Controller
 {
     private readonly AppDbContext _context;

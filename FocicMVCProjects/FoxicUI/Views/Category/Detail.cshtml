@@ -1,4 +1,7 @@
-﻿<div class="page-content">
+﻿@using Foxic.Buisness.ViewModels.AreasViewModels.ProductVMs;
+@using Foxic.Core.Entities;
+@model ProductDVM
+<div class="page-content">
 	<div class="holder breadcrumbs-wrap mt-0">
 		<div class="container">
 			<ul class="breadcrumbs">
@@ -117,7 +120,7 @@
 						</div>
 						<div class="prd-progress prd-block_info_item" data-left-in-stock="">
 							<div class="prd-progress-text">
-								Hurry Up! Left <span class="prd-progress-text-left js-stock-left">26</span> in stock
+								Hurry Up! Left <span class="prd-progress-text-left js-stock-left"></span> in stock
 							</div>
 							<div class="prd-progress-text-null"></div>
 							<div class="prd-progress-bar-wrap progress">
@@ -163,14 +166,15 @@
 							</div>
 						</div>
 						<div class="order-0 order-md-100">
-							<form method="post" action="#">
+							<form  action="#">
 								<div class="prd-block_options">
 									<div class="prd-color swatches">
 										<div class="option-label">Color:</div>
 										<select class="form-control hidden single-option-selector-modalQuickView" id="SingleOptionSelector-0" data-index="option1">
-											<option value="Beige" selected="selected">Beige</option>
-											<option value="Black">Black</option>
-											<option value="Red">Red</option>
+											@foreach (ProductColor productColor in Model.Colors)
+											{
+												<option value="@productColor">@productColor.Color.Name</option>
+											} 
 										</select>
 										<ul class="images-list js-size-list" data-select-id="SingleOptionSelector-0">
 											<li class="active">

@@ -4,11 +4,13 @@ using Foxic.Buisness.ViewModels.AreasViewModels.BrandVMs;
 using Foxic.Buisness.ViewModels.AreasViewModels.CollectionVMs;
 using Foxic.Core.Entities;
 using Foxic.DataAccess.contexts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FoxicUI.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin")]
 public class CollectionController : Controller
 {
     private readonly AppDbContext _context;
