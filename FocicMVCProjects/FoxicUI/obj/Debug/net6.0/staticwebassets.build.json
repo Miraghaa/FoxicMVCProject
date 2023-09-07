@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KsSElPFSl/sKRjA3chFsm2Ze3yThZPSOd+QysjW4OUQ=",
+  "Hash": "F6kMUR5WyOxtvmV5x+OfnQdUiVLk/oXqC9XjMQiShtg=",
   "Source": "FoxicUI",
   "BasePath": "_content/FoxicUI",
   "Mode": "Default",
@@ -23664,6 +23664,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\03287bce-91c0-4a7a-92b5-137c4330256abrand-fashion-01_500x.webp"
     },
     {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\06b6c38d-3c96-4f5d-aa7d-7d4155cebb39ladies-3-white-1_396x.webp",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/06b6c38d-3c96-4f5d-aa7d-7d4155cebb39ladies-3-white-1_396x.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\06b6c38d-3c96-4f5d-aa7d-7d4155cebb39ladies-3-white-1_396x.webp"
+    },
+    {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\072d32f4-a196-499b-baf3-7e3819ec45a4Screenshot 2023-07-22 130856.png",
       "SourceId": "FoxicUI",
       "SourceType": "Discovered",
@@ -24021,6 +24038,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\2a72dbfa-63ad-4cc7-b87c-f2fa821d0264photo-1568535904307-f48b760a39f3.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\2b556a5e-4883-452b-a54e-e85217f0043aladies-5-black-1_396x.webp",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/2b556a5e-4883-452b-a54e-e85217f0043aladies-5-black-1_396x.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\2b556a5e-4883-452b-a54e-e85217f0043aladies-5-black-1_396x.webp"
+    },
+    {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\2f14fdaf-812e-4161-ab68-716528fdd3d8photo-1568535904307-f48b760a39f3.jpg",
       "SourceId": "FoxicUI",
       "SourceType": "Discovered",
@@ -24291,6 +24325,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\39b9b774-88d9-4304-914d-b9c32c8f5ce7Screenshot 2023-07-22 150702.png"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\39c55f05-d670-44b2-a6e9-9847925e28caladies-7-green-1_396x.webp",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/39c55f05-d670-44b2-a6e9-9847925e28caladies-7-green-1_396x.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\39c55f05-d670-44b2-a6e9-9847925e28caladies-7-green-1_396x.webp"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\3cec9f48-9895-4dbd-9b17-04c59549d175ladies-8-beige-1_396x.webp",
@@ -25432,6 +25483,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\ae8f4ee1-d6f4-435f-b19a-053595ec70892axat4r.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\b0a22c59-e4f1-43f2-8532-d048b14c35c8ladies-2-beige-1_396x.webp",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/b0a22c59-e4f1-43f2-8532-d048b14c35c8ladies-2-beige-1_396x.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\b0a22c59-e4f1-43f2-8532-d048b14c35c8ladies-2-beige-1_396x.webp"
+    },
+    {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\b426fb8b-52ef-471b-826d-118d2a8865adScreenshot 2023-07-22 150702.png",
       "SourceId": "FoxicUI",
       "SourceType": "Discovered",
@@ -25515,6 +25583,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\b76fd512-e684-4726-8a29-c3bf7e26d07c2axat4r.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\b8a51952-4641-4661-aa10-ea1e9f4dad02ladies-10-blue-1_396x.webp",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/b8a51952-4641-4661-aa10-ea1e9f4dad02ladies-10-blue-1_396x.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\b8a51952-4641-4661-aa10-ea1e9f4dad02ladies-10-blue-1_396x.webp"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\bf3a1a52-ea8f-4c00-b3fb-32656c60f402brand-fashion-04_500x.webp",
@@ -25840,6 +25925,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\da0e444d-bc80-4b80-8302-9088f356d5632axat4r.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\de3aac26-ffe2-4d9d-87cc-aedcd5c94946ladies-6-beige-1_396x.webp",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/de3aac26-ffe2-4d9d-87cc-aedcd5c94946ladies-6-beige-1_396x.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\de3aac26-ffe2-4d9d-87cc-aedcd5c94946ladies-6-beige-1_396x.webp"
+    },
+    {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\defee98b-f302-4612-8a6a-a198b7307e86Screenshot 2023-07-22 150702.png",
       "SourceId": "FoxicUI",
       "SourceType": "Discovered",
@@ -25940,6 +26042,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\e232163b-ddde-48ab-97d2-16ccd7597422ladies-10-blue-1_396x.webp"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\e25bc6d7-431e-4994-9b4e-7586a3f2e21eladies-9-orange-1_396x.webp",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/e25bc6d7-431e-4994-9b4e-7586a3f2e21eladies-9-orange-1_396x.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\e25bc6d7-431e-4994-9b4e-7586a3f2e21eladies-9-orange-1_396x.webp"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\e336834f-8730-4871-b6cc-a7c1751eae1cScreenshot 2023-07-22 130856.png",
@@ -26314,6 +26433,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\fd2693a6-d804-41bc-9d5c-4645ab67c38eScreenshot 2023-07-22 130856.png"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\fd78ccef-1ff1-4af8-a6f9-56a2915d92dcladies-8-beige-1_396x.webp",
+      "SourceId": "FoxicUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\",
+      "BasePath": "_content/FoxicUI",
+      "RelativePath": "assets/images/slider/fd78ccef-1ff1-4af8-a6f9-56a2915d92dcladies-8-beige-1_396x.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\fd78ccef-1ff1-4af8-a6f9-56a2915d92dcladies-8-beige-1_396x.webp"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\mvc proyekt\\FocicMVCProjects\\FoxicUI\\wwwroot\\assets\\images\\slider\\fe638321-51b0-4697-b542-a143ff7479fe2axat4r.jpg",

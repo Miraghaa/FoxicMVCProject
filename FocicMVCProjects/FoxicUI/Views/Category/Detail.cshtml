@@ -170,33 +170,29 @@
 								<div class="prd-block_options">
 									<div class="prd-color swatches">
 										<div class="option-label">Color:</div>
-										<select class="form-control hidden single-option-selector-modalQuickView" id="SingleOptionSelector-0" data-index="option1">
-											
-										</select>
-										<ul class="images-list js-size-list" data-select-id="SingleOptionSelector-0">
-											<li class="active">
-												<a href="#" data-value="Beige" data-toggle="tooltip" data-placement="top" data-original-title="Beige"><span class="image-container image-container--product"><img src="/assets/images/skins/fashion/product-page/product-01.jpg" alt=""></span></a>
-											<li>
-											<li>
-												<a href="#" data-value="Black" data-toggle="tooltip" data-placement="top" data-original-title="Black"><span class="image-container image-container--product"><img src="/assets/images/skins/fashion/product-page/product-04.jpg" alt=""></span></a>
-											<li>
-											<li>
-												<a href="#" data-value="Red" data-toggle="tooltip" data-placement="top" data-original-title="Red"><span class="image-container image-container--product"><img src="/assets/images/skins/fashion/product-page/product-07.jpg" alt=""></span></a>
-											</li>
-										</ul>
+										<select style="width:100%">
+											@foreach (ProductColor productColor in Model.Colors)
+											{
+												
+												<option value="@productColor.Color.Id">
+													<h3>@productColor.Color.Name</h3>
+													<img src="@productColor.Color.Image" />
+												</option>
+												
+											}
+											</select>
+										 
 									</div>
 									<div class="prd-size swatches">
 										<div class="option-label">Size:</div>
-										<select class="form-control hidden single-option-selector-modalQuickView" id="SingleOptionSelector-1" data-index="option2">
-											<option value="Small" selected="selected">Small</option>
-											<option value="Medium">Medium</option>
-											<option value="Large">Large</option>
+										<select class="form-control  single-option-selector-modalQuickView" id="SingleOptionSelector-1" data-index="option2">
+											@foreach (ProductSize productSize in Model.Sizes)
+											{
+												<option value="default">@productSize.Size.Name</option>
+
+											}
 										</select>
-										<ul class="size-list js-size-list" data-select-id="SingleOptionSelector-1">
-											<li class="active"><a href="#" data-value="Small"><span class="value">Small</span></a></li>
-											<li><a href="#" data-value="Medium"><span class="value">Medium</span></a></li>
-											<li><a href="#" data-value="Large"><span class="value">Large</span></a></li>
-										</ul>
+										
 									</div>
 								</div>
 								<div class="prd-block_actions prd-block_actions--wishlist">
