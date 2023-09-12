@@ -74,7 +74,7 @@ namespace FoxicUI.Controllers
 		        ModelState.AddModelError("", "Email or Password is wrong");
 		        return View(login);
 		    }
-		    return RedirectToAction(nameof(Index), "Home");
+		    return RedirectToAction(nameof(Index), "Admin");
 		}
 		[HttpPost]
 		[ValidateAntiForgeryToken]

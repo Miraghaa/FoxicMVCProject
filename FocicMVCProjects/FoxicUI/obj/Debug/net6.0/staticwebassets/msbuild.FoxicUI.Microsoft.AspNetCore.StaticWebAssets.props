@@ -22256,6 +22256,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\03287bce-91c0-4a7a-92b5-137c4330256abrand-fashion-01_500x.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\039c096a-c84a-4c8e-a712-652537fa6a37banner-fashion-2-02_720x.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/039c096a-c84a-4c8e-a712-652537fa6a37banner-fashion-2-02_720x.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\039c096a-c84a-4c8e-a712-652537fa6a37banner-fashion-2-02_720x.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\06b6c38d-3c96-4f5d-aa7d-7d4155cebb39ladies-3-white-1_396x.webp))">
       <SourceType>Package</SourceType>
       <SourceId>FoxicUI</SourceId>
@@ -23072,6 +23088,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\52f4c8e1-4dee-44b6-9cc3-e4ef19202035Screenshot 2023-07-22 150702.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\52f9085f-87a8-483b-b0c1-2f8f3dd3bbefbanner-fashion-2-03_720x.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/52f9085f-87a8-483b-b0c1-2f8f3dd3bbefbanner-fashion-2-03_720x.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\52f9085f-87a8-483b-b0c1-2f8f3dd3bbefbanner-fashion-2-03_720x.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\5311cd38-0217-4815-8bfa-25e0726d2ca92axat4r.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>FoxicUI</SourceId>
@@ -23311,6 +23343,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\6762807b-5f90-4714-aa00-5ae9aabce9222axat4r.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\68c9d795-19d2-4014-a75a-9aba0ebd2f07banner-fashion-2-03_720x.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/68c9d795-19d2-4014-a75a-9aba0ebd2f07banner-fashion-2-03_720x.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\68c9d795-19d2-4014-a75a-9aba0ebd2f07banner-fashion-2-03_720x.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\69ecf958-2d17-4afc-844f-bb83326aab0bScreenshot 2023-07-22 130856.png))">
       <SourceType>Package</SourceType>
@@ -23808,6 +23856,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\93321de3-054e-4999-87e8-4eb609f681ecbrand-fashion-01_500x.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\93338bd0-d4d4-4d8b-85ee-2f4c735eb623banner-fashion-2-03_720x.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/93338bd0-d4d4-4d8b-85ee-2f4c735eb623banner-fashion-2-03_720x.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\93338bd0-d4d4-4d8b-85ee-2f4c735eb623banner-fashion-2-03_720x.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\93c1cf0c-287b-495d-a32f-e8a4c6b7f06dScreenshot 2023-07-22 150702.png))">
       <SourceType>Package</SourceType>
       <SourceId>FoxicUI</SourceId>
@@ -24080,6 +24144,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\b8a51952-4641-4661-aa10-ea1e9f4dad02ladies-10-blue-1_396x.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\be10571a-2de5-45f2-a9fa-07bfb92d7c87banner-fashion-2-03_720x.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/be10571a-2de5-45f2-a9fa-07bfb92d7c87banner-fashion-2-03_720x.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\be10571a-2de5-45f2-a9fa-07bfb92d7c87banner-fashion-2-03_720x.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\bf3a1a52-ea8f-4c00-b3fb-32656c60f402brand-fashion-04_500x.webp))">
       <SourceType>Package</SourceType>
       <SourceId>FoxicUI</SourceId>
@@ -24191,6 +24271,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\c6e517a6-aa72-4e14-b55f-e1a76a9ce510Screenshot 2023-07-22 150702.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\c7a78572-c3c9-428f-8621-0e13b2381ac62axat4r.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/c7a78572-c3c9-428f-8621-0e13b2381ac62axat4r.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\c7a78572-c3c9-428f-8621-0e13b2381ac62axat4r.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\c985316e-2088-403e-84d1-c4384537f8a6Screenshot 2023-07-22 150702.png))">
       <SourceType>Package</SourceType>
@@ -24623,6 +24719,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\e6f991fd-494a-485d-b978-17301283e4b5Screenshot 2023-07-22 150702.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\e885d1e6-f0d4-476d-898e-ea60d9bdc9c7mens-5-blue-1_396x.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>FoxicUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FoxicUI</BasePath>
+      <RelativePath>assets/images/slider/e885d1e6-f0d4-476d-898e-ea60d9bdc9c7mens-5-blue-1_396x.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\e885d1e6-f0d4-476d-898e-ea60d9bdc9c7mens-5-blue-1_396x.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\slider\e92d7529-7969-4841-a5fd-988d8702876dScreenshot 2023-07-22 130856.png))">
       <SourceType>Package</SourceType>

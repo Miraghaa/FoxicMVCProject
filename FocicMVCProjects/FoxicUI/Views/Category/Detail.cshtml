@@ -170,22 +170,23 @@
 								<div class="prd-block_options">
 									<div class="prd-color swatches">
 										<div class="option-label">Color:</div>
-										<select style="width:100%">
+										<select style="width:25%" disabled>
 											@foreach (ProductColor productColor in Model.Colors)
 											{
-												
-												<option value="@productColor.Color.Id">
+												<option value="@productColor.Color.Id" style="">
 													<h3>@productColor.Color.Name</h3>
-													<img src="@productColor.Color.Image" />
 												</option>
 												
 											}
-											</select>
-										 
+										</select>
+										@foreach (ProductColor productColor in Model.Colors)
+										{
+											<img  style="width:30px;border-radius:100%; margin-left:20px" src="/@productColor.Color.Image" />
+										}
 									</div>
 									<div class="prd-size swatches">
 										<div class="option-label">Size:</div>
-										<select class="form-control  single-option-selector-modalQuickView" id="SingleOptionSelector-1" data-index="option2">
+										<select style="width:25%" disabled>
 											@foreach (ProductSize productSize in Model.Sizes)
 											{
 												<option value="default">@productSize.Size.Name</option>
